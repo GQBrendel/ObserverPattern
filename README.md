@@ -1,7 +1,5 @@
 # CommandPattern
 
-# CommandPattern
-
 Implementation of character controller for a 2D game using the Design Patter "Command".
 Based on the book Game Programming Patterns by Robert Nystrom available at:
 http://gameprogrammingpatterns.com/
