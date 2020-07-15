@@ -6,4 +6,8 @@
     public virtual void Execute(Actor actor)
     {
     }
+
+    public virtual void Execute(Actor actor, float intensity)
+    {
+    }
 }

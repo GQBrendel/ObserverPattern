@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿//Character Controller by Brackeys: https://github.com/Brackeys/2D-Character-Controller
+using UnityEngine;
 using UnityEngine.Events;
 
 public class CharacterController2D : MonoBehaviour
@@ -51,7 +52,7 @@ public class CharacterController2D : MonoBehaviour
     }
 
 
-    public void Move(float move, bool crouch, bool jump)
+    public void Move(float move, bool jump)
     {
         //only control the player if grounded or airControl is turned on
         if (m_Grounded || m_AirControl)
