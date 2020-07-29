@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class HighestPlatformArea : Subject
 {
@@ -11,9 +9,9 @@ public class HighestPlatformArea : Subject
         AddObserver(_observer);
     }
 
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (collision.CompareTag("Player"))
         {
             Notify();
         }

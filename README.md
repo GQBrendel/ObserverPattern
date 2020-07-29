@@ -1,6 +1,6 @@
 # ObserverPattern
 
-Implementation of achievment system for a 2D game using the Design Patter "Observer".
+Implementation of achievment system for a 2D game using the Design Pattern "Observer".
 The project has another one of my design patterns study projects as a base for the character controller using Command Pattern (https://github.com/GQBrendel/CommandPattern)
 
 Based on the book Game Programming Patterns by Robert Nystrom available at:

@@ -4,8 +4,17 @@ using UnityEngine;
 
 public class Achievements : Observer 
 {
+    [SerializeField] private UITopPanel _uITopPanel;
+
+    private bool _achievInlocked;
+
     public override void OnNotify()
     {
-        Debug.Log("Acheivemente Notifyed");
+        if (_achievInlocked)
+        {
+            return;
+        }
+        _achievInlocked = true;
+        _uITopPanel.PlayAnimation();
     }
 }
